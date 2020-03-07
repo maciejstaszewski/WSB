@@ -7,7 +7,31 @@
 </head>
 <body>
     <?php
-        echo "text";
+        echo "text<br>";
+        $name="JAnusz";
+        $surname="Kowalski";
+        
+        echo $name." ".$surname,"<br>";
+        echo $name." ".$surname,"<br>";
+        
+        echo "name $surname";
+        echo 'name $surname';
+
+        //heredoc
+        echo <<<SHOW
+        <hr>
+            imię: $name<br>
+            Nazwisko: $surname
+        <hr>
+SHOW;
+
+        $text= <<<SHOW
+        <hr>
+            imię: $name<br>
+            Nazwisko: $surname
+        <hr>
+SHOW;
+    echo $text;
     ?>
 
 </body>
