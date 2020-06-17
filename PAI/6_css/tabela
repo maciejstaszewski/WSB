@@ -1,0 +1,21 @@
+table summary="Tabela testowa" id="tabela">
+<tbody>
+<tr>
+   <td>Komórka 1</td>
+   <td>Komórka 2</td>
+   <td>Komórka 3</td>
+   <td>Komórka 4</td>
+</tr>
+<tr>
+   <td>Komórka 5</td>
+   <td>Komórka 6</td>
+   <td rowspan="2">Komórka 7</td>
+   <td>Komórka 8</td>
+</tr>
+<tr>
+   <td>Komórka 9</td>
+   <td>Komórka 10</td>
+   <td>Komórka 11</td>
+</tr>
+</tbody>
+</table>

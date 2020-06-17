@@ -1,0 +1,13 @@
+li{
+    display: inline;
+    margin-right: 15px;
+
+}
+
+li.hidden{
+    display: none;
+}
+
+li.hidden_v{
+    visibility: hidden;
+}
